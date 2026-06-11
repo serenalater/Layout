@@ -4,13 +4,36 @@
 
     <h2>Contatti</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, reprehenderit necessitatibus possimus sequi, mollitia sit nemo eveniet corporis laboriosam quibusdam voluptatem consequatur delectus accusamus itaque. Repudiandae autem laborum sit soluta.</p>
-    <form action="" method="post">
-
-        Username: <input type="text" name="username">
-        Password: <input type="text" name="password">
-        <input type="submit" name="" id="" value="Login">
-
-    </form>
+    <div class="container">
+    <h2 class="text-center">Login</h2>
+    <div class="container">
+    <div class="row justify-content-center mt-5">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0">Login</h4>
+                </div>
+                <div class="card-body">
+                    <form action="" method="post">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Enter your password">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="rememberMe">
+                            <label class="form-check-label" for="rememberMe">Remember me</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 </main>
 <?php include 'footer.php' ?>

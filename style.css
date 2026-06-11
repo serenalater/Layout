@@ -1,0 +1,74 @@
+.logo {
+
+    width: 70px;
+    height: auto;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+        
+        
+      
+        
+/*        
+        
+        .floating {
+            animation: floating 3s ease-in-out infinite;
+        }
+        
+        @keyframes floating {
+            0% { transform: translate(0, 0px); }
+            50% { transform: translate(0, -15px); }
+            100% { transform: translate(0, -0px); }
+        }
+        
+        .pulse-glow {
+            animation: pulse-glow 2s infinite;
+        }
+        
+        @keyframes pulse-glow {
+            0% { box-shadow: 0 0 5px var(--accent); }
+            50% { box-shadow: 0 0 20px var(--accent); }
+            100% { box-shadow: 0 0 5px var(--accent); }
+        }
+        
+        .bean-animation {
+            animation: bean-rotate 20s linear infinite;
+        }
+        
+        @keyframes bean-rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        
+        .steam {
+            position: absolute;
+            width: 8px;
+            height: 40px;
+            background: rgba(255, 255, 255, 0.6);
+            border-radius: 8px;
+            filter: blur(4px);
+            animation: steam-rise 4s infinite;
+        }
+        
+        @keyframes steam-rise {
+            0% { transform: translateY(0) scale(1); opacity: 0; }
+            50% { opacity: 0.8; }
+            100% { transform: translateY(-60px) scale(1.5); opacity: 0; }
+        }
+        
+        .parallax {
+            background-attachment: fixed;
+        } */
+
+       .sticky-navbar {
+
+        background-color: #fff !important;
+       }
+
+       .sticky-navbar a {
+        color: #000 !important;
+       }
