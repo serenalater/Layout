@@ -5,7 +5,7 @@
     <!-- hero -->
 
 
-    <div style="height: 100vh; background-image: url(./img/hero-bg.jpg); background-size: cover; background-position: center;" class="position-relative w-100">
+    <div style="background-image: url(./img/hero-bg.jpg); background-size: cover; background-position: center;" class="position-relative w-100 vh-100">
         <div class="position-absolute text-white d-flex flex-column align-items-start justify-content-center" style="top: 0; right: 0; bottom: 0; left: 0; background-color: rgba(0,0,0,.7);">
             <div class="container d-flex vh-100 row align-content-center m-auto">
                 <div class="col-md-6">
@@ -20,7 +20,7 @@
             
                 </div>
                 <div class="col-md-6">
-                    <img src="./img/burger.webp" class="float-end">
+                    <img src="./img/burger.webp" class="float-end floating">
 
                 </div>
             </div>
@@ -42,6 +42,7 @@
                     </div>
                     <div class="col-6">
                         <img src="./img/hero-bg3.jpg" alt="" class="rounded img-fluid">
+                        <img src="./img/burger-nero.webp" alt="" class="img-fluid logo mt-5 img-personal">
                     </div>
                 </div>
                 
